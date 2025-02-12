@@ -1,0 +1,42 @@
+.box{
+    background-color: aqua;
+    margin: 10px;
+    box-shadow: 3px 3px 5px black;
+}
+.big{
+    height: 100px;
+    width: 100px;
+    top: 0;
+    z-index: 1;
+    border: 5px solid hsl(264, 40%, 40%);
+    position: relative;
+}
+img{
+    width: 100px;
+    height: 100px;
+}
+.box_content{
+    position: absolute;
+    margin-left: 90px;
+    background-color: red;
+    color: white;
+    padding: 5px;
+    z-index: 2;
+}
+.fix_box{
+    position: fixed;
+    background-color: violet;
+    top: 50;
+    right: 0;
+}
+.stick_box{
+    position: sticky;
+    background-color: yellow;
+    top: 0;
+    right: 0;
+}
+.last{
+    position: fixed;
+    background-color: rgb(147, 0, 24);
+    bottom: 0;
+}

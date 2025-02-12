@@ -1,4 +1,12 @@
-h1{
-    display: inline-block;
-    background-color: aqua;
+div{
+    /* background-color: red; */
+    height: auto;
+    width: auto;
+    /* color: #ff0000; */
+    width: auto;
+   
+}
+.external{
+    background-color: blue;
+
 }
