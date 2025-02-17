@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="transitionandanimation.css">
+    <style>
+        .transition:hover{
+            color: royalblue;
+            background-color: aqua;
+            width:700px;
+            height: 500px;
+
+        }
+        .transition{
+            color: rgb(255, 255, 255);
+            background-color: tomato;
+            transition: width 2s, height 2s, transform 2s;
+
+        }
+
+        @keyframes aniumation{
+            0%{
+                background-color: red;
+                transform: translateX(0px);
+                top:0px;
+            }
+            25%{
+                background-color: blue;
+                transform: translateX(100px);
+            }
+            50%{
+                background-color: green;
+                transform: translateX(200px);
+                top:100px;
+            }
+            75%{
+                background-color: yellow;
+                transform: translateX(300px);
+            }
+            100%{
+                background-color: red;
+                transform: translateX(400px);
+            }
+        }
+        .animation{
+            animation-name: aniumation;
+            background-color: rgb(243, 0, 0);
+            animation-duration: 5s;
+            animation-iteration-count: infinite;
+            padding: 30px;
+            width: 100px;
+            height: 100px;
+            position: relative;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="transition"> This is a transition</h1>
+    <h1 class="animation">hello</h1>    
+</body>
+</html>

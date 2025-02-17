@@ -1,3 +1,14 @@
+@media  screen and (max-width: 300px) {
+    .container{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        background-color: brown;
+        padding: 10px;
+        height: 100%;
+        width: 100%;
+        padding: 20px;
+    }
+}
 .container{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -7,6 +18,7 @@
     width: 100%;
     padding: 20px;
 }
+
 .grid_items{
     background-color: rgb(44, 44, 44);
     color: white;
