@@ -36,8 +36,11 @@ const callback=()=>console.log("call back");
 function greetting(){
     console.log("welcome");
 }
+function goodmorning(){
+    console.log("good morning");
+}
 function callfun(a,callback){
    console.log(a);
    callback();
 }
-callfun("calling function");
+callfun("calling function",goodmorning);
