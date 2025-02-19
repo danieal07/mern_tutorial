@@ -22,5 +22,6 @@ li{
 
 a{
     text-decoration: none;
-    color: aliceblue;
+    font-size: 2rem;
+    color: rgb(255, 18, 18);
 }
