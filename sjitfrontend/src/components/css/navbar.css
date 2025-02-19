@@ -1,0 +1,26 @@
+nav{
+    display: flex;
+    list-style-type: none;
+    text-decoration: none;
+    color: aliceblue;
+    /* justify-content: space-around; */
+}
+Link{
+  color: red;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+li{
+  padding: 30px;
+  background-color: aqua;
+  margin: 20px;
+  transition: 2s ease;
+  
+}
+
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
