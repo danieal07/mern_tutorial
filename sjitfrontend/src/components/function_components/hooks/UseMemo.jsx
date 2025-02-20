@@ -14,8 +14,7 @@ const UseMemo = () => {
   }
  
   return (
-    <>
-      
+    <>   
       <div style={Styling}>
       <button onClick={()=>setTheme(!theme)}>toogle theme</button>
         <h1>this is Use Demo</h1>

@@ -1,6 +1,5 @@
 import Home from'./components/function_components/home.jsx'
-import Navbar from './components/function_components/Navbar.jsx';
-import ClassComEg from './components/class_components/classcomponenyEG.jsx';
+import Navbar from './components/function_components/navbar.jsx';
 import About from './components/function_components/about.jsx';
 import Contact from './components/function_components/contact.jsx';
 import Gallery from './components/function_components/gallery.jsx';
