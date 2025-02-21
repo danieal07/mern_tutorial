@@ -9,6 +9,8 @@ import Login from './components/function_components/Login.jsx';
 import UseEffectApi from './components/function_components/useEffectApi.jsx';
 import UseRef from './components/function_components/hooks/useRef.jsx';
 import UseMemo from './components/function_components/hooks/UseMemo.jsx';
+import UseCallback from './components/function_components/hooks/UseCallback.jsx';
+import Hoc from './components/function_components/Hoc/Hoc.jsx';
 function Main(){
   return <main> 
     <BrowserRouter>
@@ -23,6 +25,8 @@ function Main(){
                 <Route path='/Login' element={<Login></Login>}></Route>
                 <Route path='/UseRef' element={<UseRef></UseRef>}></Route>
                 <Route path='/UseMemo' element={<UseMemo></UseMemo>}></Route>
+                <Route path='/UseCallback' element={<UseCallback/>}></Route>
+                <Route path='/Hoc' element={<Hoc/>}></Route>
 
            </Routes>
     </BrowserRouter>

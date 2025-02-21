@@ -17,10 +17,12 @@ const Navbar=()=>{
                     <li><Link to='/useEffectApi'>Use Effect Api</Link></li>
                     <li><Link to='/UseRef'>Use Ref</Link></li>
                     <li><Link to='/UseMemo'>Use Memo</Link></li>
+                    <li><Link to='/UseCallback'>Use Callback</Link></li>
                     
                 </ul>
                 </li>
             </div>
+            <li><Link to='/HoC'>HOC</Link></li>
             <li><Link to='/Contact'>conatct</Link></li>
             <li><Link to='/Signup' >signup</Link></li>  
         </nav>
