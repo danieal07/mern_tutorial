@@ -11,6 +11,10 @@ import UseRef from './components/function_components/hooks/useRef.jsx';
 import UseMemo from './components/function_components/hooks/UseMemo.jsx';
 import UseCallback from './components/function_components/hooks/UseCallback.jsx';
 import Hoc from './components/function_components/Hoc/Hoc.jsx';
+import Parent from './components/memoization/parent.jsx';
+import Child1 from './components/memoization/child1.jsx';
+import Child2 from './components/memoization/child2.jsx';
+import LazyLoading from './components/memoization/lazyLoading.jsx';
 function Main(){
   return <main> 
     <BrowserRouter>
@@ -27,6 +31,10 @@ function Main(){
                 <Route path='/UseMemo' element={<UseMemo></UseMemo>}></Route>
                 <Route path='/UseCallback' element={<UseCallback/>}></Route>
                 <Route path='/Hoc' element={<Hoc/>}></Route>
+                <Route path='/Parent' element={<Parent/>}/>
+                <Route path='/Child1' element={<Child1/>}/>
+                <Route path='/Child2' element={<Child2/>}/>
+                <Route path='/LazyLoading' element={<LazyLoading/>}/>
 
            </Routes>
     </BrowserRouter>
