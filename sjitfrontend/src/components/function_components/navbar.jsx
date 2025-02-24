@@ -33,6 +33,16 @@ const Navbar=()=>{
                 </ul>
                 </li>
             </div>
+            <div>
+                <li class ="dropdown"><a>PropDrilling</a>
+                 <ul class="dropdown-menu">
+                    <li><Link to='/StudenResult'>StudenResult</Link></li>
+                    <li><Link to='/Child1'>child1</Link></li>
+                    <li><Link to='/Child2'>child2</Link></li> 
+                    <li><Link to='/LazyLoading'>LazyLoading</Link></li>  
+                </ul>
+                </li>
+            </div>
             <li><Link to='/Contact'>conatct</Link></li>
             <li><Link to='/Signup' >signup</Link></li>  
         </nav>

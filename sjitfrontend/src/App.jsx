@@ -15,6 +15,7 @@ import Parent from './components/memoization/parent.jsx';
 import Child1 from './components/memoization/child1.jsx';
 import Child2 from './components/memoization/child2.jsx';
 import LazyLoading from './components/memoization/lazyLoading.jsx';
+import StudentResult from './components/function_components/contextAPI/StudentResult.jsx';
 function Main(){
   return <main> 
     <BrowserRouter>
@@ -35,6 +36,7 @@ function Main(){
                 <Route path='/Child1' element={<Child1/>}/>
                 <Route path='/Child2' element={<Child2/>}/>
                 <Route path='/LazyLoading' element={<LazyLoading/>}/>
+                <Route path='/StudenResult' element={<StudentResult sgpa="8.5" cgpa="8.5"/>}/>
 
            </Routes>
     </BrowserRouter>
